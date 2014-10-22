@@ -1,0 +1,4 @@
+5-heap
+======
+
+Assignment 2 Write a class (or a set of functions, if you are using C) that implements a 5-Heap (i.e., each node has up to 5 children) using an array as discussed in class. Each node of the heap contains two elements: a priority level (integer), and a string value. Implement insert(priority, string_value) that inserts an element in the heap, and delete_max() that removes the value with the highest priority and returns the corresponding string value. (Do not implement delete_min). Since delete_min is not required, optimize the heap structure for delete_max. Write a program that inserts 1,000 random elements in your 5-Heap, and then outputs them from the highest priority value to the lowest using delete_max(). (The heap will be empty at the end of the program.) Output only the result of delete_max(), one element at a time, such as:   681469 "element 1" 529834 "element 2"
